@@ -1,4 +1,6 @@
-# Public Key Infrastructure
+# Certificate Management
+
+## Public Key Infrastructure
 PKI is a framework of hardware, software, policies, and standards used to manage digital certificates and public-private key pairs. Its purpose is to ensure secure electronic communication and authentication over networks, particularly the internet.
 ## Key Components of PKI:
 - **Public and Private Keys:** PKI is based on asymmetric cryptography, where a public key encrypts data, and a corresponding private key decrypts it.
