@@ -1,6 +1,6 @@
-## **Public Key Infrastructure**
+# Public Key Infrastructure
 PKI is a framework of hardware, software, policies, and standards used to manage digital certificates and public-private key pairs. Its purpose is to ensure secure electronic communication and authentication over networks, particularly the internet.
-### Key Components of PKI:
+## Key Components of PKI:
 **Public and Private Keys:** PKI is based on asymmetric cryptography, where a public key encrypts data, and a corresponding private key decrypts it.
 
 **Public Key:** Shared with others, used to encrypt data.
@@ -19,7 +19,7 @@ PKI is a framework of hardware, software, policies, and standards used to manage
 
 PKI allows for encrypted communication over the internet via the SSL/TLS protocol, ensuring that even if the data is intercepted, it cannot be decrypted without the private key.
 
-### General Concept of Certificates
+## General Concept of Certificates
 
 **Key Pair Generation:**
 When you generate a private key, it forms the foundation of your PKI setup.
@@ -38,7 +38,7 @@ The self-signed certificate binds the public key to the identity (domain) mentio
 In a traditional PKI system, certificates are signed by a CA that browsers trust by default. When a browser encounters a certificate signed by a known CA, it trusts that certificate.
 However, a self-signed certificate doesn’t come from a trusted CA, which is why browsers display a warning about trust issues when visiting sites with self-signed certificates. This warning occurs because there's no third-party validation of the certificate's authenticity.
 
-### **Easy-RSA**
+## Easy-RSA
 Easy-RSA is a simple command-line tool that helps users set up and manage their own Public Key Infrastructure (PKI), primarily for VPNs and internal networks. It uses OpenSSL under the hood but simplifies the process of managing certificate authorities (CAs), generating certificates, and signing requests.
 
 **Key Features of Easy-RSA:**
